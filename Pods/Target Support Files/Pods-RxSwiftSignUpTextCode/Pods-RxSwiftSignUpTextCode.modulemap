@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftSignUpTextCode {
+  umbrella header "Pods-RxSwiftSignUpTextCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

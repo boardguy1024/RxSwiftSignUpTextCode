@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34E0CC33DE687A31FD000933 /* Pods_RxSwiftSignUpTextCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8858849065A54A465F96A5 /* Pods_RxSwiftSignUpTextCodeTests.framework */; };
+		6D996D86790CAEC9894B3BDB /* Pods_RxSwiftSignUpTextCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A564778D7E52C877C2338F /* Pods_RxSwiftSignUpTextCode.framework */; };
+		A002038634D1B08FAB4C8C6A /* Pods_RxSwiftSignUpTextCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65695E7B6AB69EB021A570A /* Pods_RxSwiftSignUpTextCodeUITests.framework */; };
+		A2EFB0591FBFF07F00934275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB0581FBFF07F00934275 /* AppDelegate.swift */; };
+		A2EFB05B1FBFF07F00934275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB05A1FBFF07F00934275 /* ViewController.swift */; };
+		A2EFB0601FBFF07F00934275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EFB05F1FBFF07F00934275 /* Assets.xcassets */; };
+		A2EFB0631FBFF07F00934275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EFB0611FBFF07F00934275 /* LaunchScreen.storyboard */; };
+		A2EFB06B1FBFF39200934275 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB06A1FBFF39200934275 /* SignUpViewController.swift */; };
+		A2EFB06D1FBFF90C00934275 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB06C1FBFF90C00934275 /* SignUpViewModel.swift */; };
+		A2EFB0781FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB0771FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift */; };
+		A2EFB0861FC01D0800934275 /* RxSwiftSignUpTextCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB0851FC01D0800934275 /* RxSwiftSignUpTextCodeTests.swift */; };
+		A2EFB0901FC01DAA00934275 /* RxSwiftsignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB08F1FC01DAA00934275 /* RxSwiftsignUpTests.swift */; };
+		A2EFB0931FC02C7400934275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EFB0611FBFF07F00934275 /* LaunchScreen.storyboard */; };
+		A2EFB0941FC02C7500934275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EFB0611FBFF07F00934275 /* LaunchScreen.storyboard */; };
+		A2EFB0971FC02E0D00934275 /* RxSwiftSignUpTextCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFB0771FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift */; };
+		A2EFB09A1FC02F4E00934275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EFB0981FC02F4E00934275 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2EFB07A1FC01CEA00934275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EFB04D1FBFF07F00934275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EFB0541FBFF07F00934275;
+			remoteInfo = RxSwiftSignUpTextCode;
+		};
+		A2EFB0881FC01D0800934275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EFB04D1FBFF07F00934275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EFB0541FBFF07F00934275;
+			remoteInfo = RxSwiftSignUpTextCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E29CE4B1E4277C376D074C1 /* Pods-RxSwiftSignUpTextCodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeUITests/Pods-RxSwiftSignUpTextCodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD08BB9D4BEFE350F4FAB1E /* Pods-RxSwiftSignUpTextCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeUITests/Pods-RxSwiftSignUpTextCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8858849065A54A465F96A5 /* Pods_RxSwiftSignUpTextCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSignUpTextCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EFB0551FBFF07F00934275 /* RxSwiftSignUpTextCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftSignUpTextCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EFB0581FBFF07F00934275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2EFB05A1FBFF07F00934275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2EFB05F1FBFF07F00934275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EFB0621FBFF07F00934275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2EFB0641FBFF07F00934275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EFB06A1FBFF39200934275 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A2EFB06C1FBFF90C00934275 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A2EFB0751FC01CE900934275 /* RxSwiftSignUpTextCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftSignUpTextCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EFB0771FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSignUpTextCodeUITests.swift; sourceTree = "<group>"; };
+		A2EFB0791FC01CEA00934275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EFB0831FC01D0800934275 /* RxSwiftSignUpTextCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftSignUpTextCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EFB0851FC01D0800934275 /* RxSwiftSignUpTextCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSignUpTextCodeTests.swift; sourceTree = "<group>"; };
+		A2EFB0871FC01D0800934275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EFB08F1FC01DAA00934275 /* RxSwiftsignUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftsignUpTests.swift; sourceTree = "<group>"; };
+		A2EFB0991FC02F4E00934275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A564778D7E52C877C2338F /* Pods_RxSwiftSignUpTextCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSignUpTextCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65695E7B6AB69EB021A570A /* Pods_RxSwiftSignUpTextCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSignUpTextCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFC6D6A5C502F71C645D0E9 /* Pods-RxSwiftSignUpTextCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCode/Pods-RxSwiftSignUpTextCode.release.xcconfig"; sourceTree = "<group>"; };
+		CEAA9110EEC155146D2D0072 /* Pods-RxSwiftSignUpTextCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeTests/Pods-RxSwiftSignUpTextCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF18D0DDA58C152E5537E67C /* Pods-RxSwiftSignUpTextCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeTests/Pods-RxSwiftSignUpTextCodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F890F7B0A067E504E08A55CC /* Pods-RxSwiftSignUpTextCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSignUpTextCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSignUpTextCode/Pods-RxSwiftSignUpTextCode.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EFB0521FBFF07F00934275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D996D86790CAEC9894B3BDB /* Pods_RxSwiftSignUpTextCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB0721FC01CE900934275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002038634D1B08FAB4C8C6A /* Pods_RxSwiftSignUpTextCodeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB0801FC01D0800934275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E0CC33DE687A31FD000933 /* Pods_RxSwiftSignUpTextCodeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E128E1F16B34E18B1A6543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F890F7B0A067E504E08A55CC /* Pods-RxSwiftSignUpTextCode.debug.xcconfig */,
+				CAFC6D6A5C502F71C645D0E9 /* Pods-RxSwiftSignUpTextCode.release.xcconfig */,
+				CEAA9110EEC155146D2D0072 /* Pods-RxSwiftSignUpTextCodeTests.debug.xcconfig */,
+				DF18D0DDA58C152E5537E67C /* Pods-RxSwiftSignUpTextCodeTests.release.xcconfig */,
+				2CD08BB9D4BEFE350F4FAB1E /* Pods-RxSwiftSignUpTextCodeUITests.debug.xcconfig */,
+				1E29CE4B1E4277C376D074C1 /* Pods-RxSwiftSignUpTextCodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0A4BCCD5C03B232742AB5C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A564778D7E52C877C2338F /* Pods_RxSwiftSignUpTextCode.framework */,
+				5F8858849065A54A465F96A5 /* Pods_RxSwiftSignUpTextCodeTests.framework */,
+				C65695E7B6AB69EB021A570A /* Pods_RxSwiftSignUpTextCodeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2EFB04C1FBFF07F00934275 = {
+			isa = PBXGroup;
+			children = (
+				A2EFB0571FBFF07F00934275 /* RxSwiftSignUpTextCode */,
+				A2EFB0701FC01C8200934275 /* RxSwiftSignUpText */,
+				A2EFB0761FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests */,
+				A2EFB0841FC01D0800934275 /* RxSwiftSignUpTextCodeTests */,
+				A2EFB0561FBFF07F00934275 /* Products */,
+				06E128E1F16B34E18B1A6543 /* Pods */,
+				A0A4BCCD5C03B232742AB5C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EFB0561FBFF07F00934275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EFB0551FBFF07F00934275 /* RxSwiftSignUpTextCode.app */,
+				A2EFB0751FC01CE900934275 /* RxSwiftSignUpTextCodeUITests.xctest */,
+				A2EFB0831FC01D0800934275 /* RxSwiftSignUpTextCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EFB0571FBFF07F00934275 /* RxSwiftSignUpTextCode */ = {
+			isa = PBXGroup;
+			children = (
+				A2EFB0981FC02F4E00934275 /* Main.storyboard */,
+				A2EFB0581FBFF07F00934275 /* AppDelegate.swift */,
+				A2EFB05A1FBFF07F00934275 /* ViewController.swift */,
+				A2EFB06C1FBFF90C00934275 /* SignUpViewModel.swift */,
+				A2EFB06A1FBFF39200934275 /* SignUpViewController.swift */,
+				A2EFB05F1FBFF07F00934275 /* Assets.xcassets */,
+				A2EFB0611FBFF07F00934275 /* LaunchScreen.storyboard */,
+				A2EFB0641FBFF07F00934275 /* Info.plist */,
+			);
+			path = RxSwiftSignUpTextCode;
+			sourceTree = "<group>";
+		};
+		A2EFB0701FC01C8200934275 /* RxSwiftSignUpText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwiftSignUpText;
+			sourceTree = "<group>";
+		};
+		A2EFB0761FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EFB0771FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift */,
+				A2EFB0791FC01CEA00934275 /* Info.plist */,
+			);
+			path = RxSwiftSignUpTextCodeUITests;
+			sourceTree = "<group>";
+		};
+		A2EFB0841FC01D0800934275 /* RxSwiftSignUpTextCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EFB08F1FC01DAA00934275 /* RxSwiftsignUpTests.swift */,
+				A2EFB0851FC01D0800934275 /* RxSwiftSignUpTextCodeTests.swift */,
+				A2EFB0871FC01D0800934275 /* Info.plist */,
+			);
+			path = RxSwiftSignUpTextCodeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EFB0541FBFF07F00934275 /* RxSwiftSignUpTextCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EFB0671FBFF07F00934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCode" */;
+			buildPhases = (
+				8FE381B4830A31F34191FFC4 /* [CP] Check Pods Manifest.lock */,
+				A2EFB0511FBFF07F00934275 /* Sources */,
+				A2EFB0521FBFF07F00934275 /* Frameworks */,
+				A2EFB0531FBFF07F00934275 /* Resources */,
+				2B80FC926EBFF87844B3A1F7 /* [CP] Embed Pods Frameworks */,
+				AAFF5D70A19021971AD010AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftSignUpTextCode;
+			productName = RxSwiftSignUpTextCode;
+			productReference = A2EFB0551FBFF07F00934275 /* RxSwiftSignUpTextCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2EFB0741FC01CE900934275 /* RxSwiftSignUpTextCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EFB07C1FC01CEA00934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCodeUITests" */;
+			buildPhases = (
+				ADC54875A829A3961CBD00BD /* [CP] Check Pods Manifest.lock */,
+				A24626971FC033AC007107C3 /* ShellScript */,
+				A2EFB0711FC01CE900934275 /* Sources */,
+				A2EFB0721FC01CE900934275 /* Frameworks */,
+				A2EFB0731FC01CE900934275 /* Resources */,
+				36B2357A3B90B200F6F3FD0A /* [CP] Embed Pods Frameworks */,
+				C9A47D202C27379195F6DAD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EFB07B1FC01CEA00934275 /* PBXTargetDependency */,
+			);
+			name = RxSwiftSignUpTextCodeUITests;
+			productName = RxSwiftSignUpTextCodeUITests;
+			productReference = A2EFB0751FC01CE900934275 /* RxSwiftSignUpTextCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A2EFB0821FC01D0800934275 /* RxSwiftSignUpTextCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EFB08A1FC01D0800934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCodeTests" */;
+			buildPhases = (
+				AA81BCA47F6E6A66FBA9B177 /* [CP] Check Pods Manifest.lock */,
+				A2EFB07F1FC01D0800934275 /* Sources */,
+				A2EFB0801FC01D0800934275 /* Frameworks */,
+				A2EFB0811FC01D0800934275 /* Resources */,
+				422AE6A7E3B176148084864F /* [CP] Embed Pods Frameworks */,
+				915723A39245CE5354015E5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EFB0891FC01D0800934275 /* PBXTargetDependency */,
+			);
+			name = RxSwiftSignUpTextCodeTests;
+			productName = RxSwiftSignUpTextCodeTests;
+			productReference = A2EFB0831FC01D0800934275 /* RxSwiftSignUpTextCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EFB04D1FBFF07F00934275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "park kyung suk";
+				TargetAttributes = {
+					A2EFB0541FBFF07F00934275 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A2EFB0741FC01CE900934275 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2EFB0541FBFF07F00934275;
+					};
+					A2EFB0821FC01D0800934275 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2EFB0541FBFF07F00934275;
+					};
+				};
+			};
+			buildConfigurationList = A2EFB0501FBFF07F00934275 /* Build configuration list for PBXProject "RxSwiftSignUpTextCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EFB04C1FBFF07F00934275;
+			productRefGroup = A2EFB0561FBFF07F00934275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EFB0541FBFF07F00934275 /* RxSwiftSignUpTextCode */,
+				A2EFB0741FC01CE900934275 /* RxSwiftSignUpTextCodeUITests */,
+				A2EFB0821FC01D0800934275 /* RxSwiftSignUpTextCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EFB0531FBFF07F00934275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB09A1FC02F4E00934275 /* Main.storyboard in Resources */,
+				A2EFB0631FBFF07F00934275 /* LaunchScreen.storyboard in Resources */,
+				A2EFB0601FBFF07F00934275 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB0731FC01CE900934275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB0931FC02C7400934275 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB0811FC01D0800934275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB0941FC02C7500934275 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B80FC926EBFF87844B3A1F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCode/Pods-RxSwiftSignUpTextCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCode/Pods-RxSwiftSignUpTextCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B2357A3B90B200F6F3FD0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeUITests/Pods-RxSwiftSignUpTextCodeUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeUITests/Pods-RxSwiftSignUpTextCodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		422AE6A7E3B176148084864F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeTests/Pods-RxSwiftSignUpTextCodeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeTests/Pods-RxSwiftSignUpTextCodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE381B4830A31F34191FFC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftSignUpTextCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915723A39245CE5354015E5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeTests/Pods-RxSwiftSignUpTextCodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24626971FC033AC007107C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		AA81BCA47F6E6A66FBA9B177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftSignUpTextCodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFF5D70A19021971AD010AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCode/Pods-RxSwiftSignUpTextCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC54875A829A3961CBD00BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftSignUpTextCodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A47D202C27379195F6DAD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftSignUpTextCodeUITests/Pods-RxSwiftSignUpTextCodeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EFB0511FBFF07F00934275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB06B1FBFF39200934275 /* SignUpViewController.swift in Sources */,
+				A2EFB0971FC02E0D00934275 /* RxSwiftSignUpTextCodeUITests.swift in Sources */,
+				A2EFB05B1FBFF07F00934275 /* ViewController.swift in Sources */,
+				A2EFB06D1FBFF90C00934275 /* SignUpViewModel.swift in Sources */,
+				A2EFB0591FBFF07F00934275 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB0711FC01CE900934275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB0781FC01CEA00934275 /* RxSwiftSignUpTextCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EFB07F1FC01D0800934275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EFB0861FC01D0800934275 /* RxSwiftSignUpTextCodeTests.swift in Sources */,
+				A2EFB0901FC01DAA00934275 /* RxSwiftsignUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EFB07B1FC01CEA00934275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EFB0541FBFF07F00934275 /* RxSwiftSignUpTextCode */;
+			targetProxy = A2EFB07A1FC01CEA00934275 /* PBXContainerItemProxy */;
+		};
+		A2EFB0891FC01D0800934275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EFB0541FBFF07F00934275 /* RxSwiftSignUpTextCode */;
+			targetProxy = A2EFB0881FC01D0800934275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2EFB0611FBFF07F00934275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EFB0621FBFF07F00934275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EFB0981FC02F4E00934275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EFB0991FC02F4E00934275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EFB0651FBFF07F00934275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2EFB0661FBFF07F00934275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EFB0681FBFF07F00934275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F890F7B0A067E504E08A55CC /* Pods-RxSwiftSignUpTextCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2EFB0691FBFF07F00934275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFC6D6A5C502F71C645D0E9 /* Pods-RxSwiftSignUpTextCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2EFB07D1FC01CEA00934275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD08BB9D4BEFE350F4FAB1E /* Pods-RxSwiftSignUpTextCodeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftSignUpTextCode;
+			};
+			name = Debug;
+		};
+		A2EFB07E1FC01CEA00934275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E29CE4B1E4277C376D074C1 /* Pods-RxSwiftSignUpTextCodeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftSignUpTextCode;
+			};
+			name = Release;
+		};
+		A2EFB08B1FC01D0800934275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAA9110EEC155146D2D0072 /* Pods-RxSwiftSignUpTextCodeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftSignUpTextCode.app/RxSwiftSignUpTextCode";
+			};
+			name = Debug;
+		};
+		A2EFB08C1FC01D0800934275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF18D0DDA58C152E5537E67C /* Pods-RxSwiftSignUpTextCodeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NG4Y8JK7B;
+				INFOPLIST_FILE = RxSwiftSignUpTextCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninimepaku.RxSwiftSignUpTextCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftSignUpTextCode.app/RxSwiftSignUpTextCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EFB0501FBFF07F00934275 /* Build configuration list for PBXProject "RxSwiftSignUpTextCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EFB0651FBFF07F00934275 /* Debug */,
+				A2EFB0661FBFF07F00934275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EFB0671FBFF07F00934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EFB0681FBFF07F00934275 /* Debug */,
+				A2EFB0691FBFF07F00934275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EFB07C1FC01CEA00934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EFB07D1FC01CEA00934275 /* Debug */,
+				A2EFB07E1FC01CEA00934275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EFB08A1FC01D0800934275 /* Build configuration list for PBXNativeTarget "RxSwiftSignUpTextCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EFB08B1FC01D0800934275 /* Debug */,
+				A2EFB08C1FC01D0800934275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EFB04D1FBFF07F00934275 /* Project object */;
+}
